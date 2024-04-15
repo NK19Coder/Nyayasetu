@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src\assets\images\logo1.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NyayaSetu</title>
+    <style>
+      df-messenger {
+       --df-messenger-bot-message: #878fac;
+       --df-messenger-button-titlebar-color: #A87645;
+       --df-messenger-chat-background-color: #fafafa;
+       --df-messenger-font-color: white;
+       --df-messenger-send-icon: #878fac;
+       --df-messenger-user-message: #479b3d;
+       --df-messenger-chat-height : 10vh
+      }
+
+      div.chat-wrapper[opened="true"] { height: 100px }
+    </style>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      chat-title="JARVIS"
+      agent-id="2e83a697-ab70-49bb-a016-8bf94f94a772"
+      language-code="en"
+    ></df-messenger>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
