@@ -109,7 +109,7 @@ Start the server
  
 ## Support
 
-For support, email nishantkumarcoder@gmai.com 
+For support, email nishantkumarcoder@gmail.com 
 
 
 
